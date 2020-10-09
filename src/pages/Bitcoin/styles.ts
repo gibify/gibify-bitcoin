@@ -17,6 +17,7 @@ export const Menu = styled.div`
     align-items: center;
 
     img {
+        margin-top: 2rem;
         width: 120px;
         height: 120px;
     }
@@ -50,7 +51,7 @@ export const Button = styled.div`
     display: flex;
     flex-direction: column;
     
-    width: 70%;
+    width: min(50%, 350px);
     text-align: center;
 
     a {
@@ -68,6 +69,7 @@ export const Button = styled.div`
             margin-top: 1.6rem;
         }
     }
+
 `;
 export const Footer = styled.div`
     width: 70%;
