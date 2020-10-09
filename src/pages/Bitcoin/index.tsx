@@ -28,23 +28,23 @@ const Bitcoin: React.FC = () => {
           </Menu>
 
           <Button >
-              <a href={apiWhatsApp}>Contate-me agora</a>
-              <a href={linkWebCompany}>Sobre a Empresa</a>
+              <a href={apiWhatsApp} target="_blank"  rel="noopener noreferrer">Contate-me agora</a>
+              <a href={linkWebCompany} target="_blank"  rel="noopener noreferrer">Sobre a Empresa</a>
           </Button>
 
           <Footer>
               <p>Siga-me nas redes sociais</p>
 
             <div className="links-social-medias">
-                  <a href={linkTwitterProfile}>
+                  <a href={linkTwitterProfile} target="_blank"  rel="noopener noreferrer">
                       <img src={TwitterIcon} alt=""/>
                   </a>
 
-                  <a href={linkFacebookProfile}>
+                  <a href={linkFacebookProfile} target="_blank"  rel="noopener noreferrer">
                         <img src={FacebbokIcon} alt=""/>
                   </a>
 
-                  <a href={linkInstagramProfile}>
+                  <a href={linkInstagramProfile} target="_blank"  rel="noopener noreferrer">
                     <img src={InstagramIcon} alt=""/>
                   </a>
             </div>
