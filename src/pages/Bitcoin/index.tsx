@@ -12,14 +12,14 @@ const Bitcoin: React.FC = () => {
     const linkFacebookProfile = 'https://www.facebook.com/gibify.officially/';
     const linkInstagramProfile = 'https://www.instagram.com/gibify_officially/';
     const linkWebCompany = 'https://meupedebitcoin.com/';
-    const apiWhatsApp = 'https://api.whatsapp.com/send?phone=5548988208519&text=Obrigado%20por%20entrar%20em%20contato%2C%20seja%20bem%20vindo%20ao%20mundo%20da%20Crypto%20Moeda';
+    const apiWhatsApp = 'https://api.whatsapp.com/send?phone=5548988208519&text=Obrigado%20por%20entrar%20em%20contato%2C%20seja%20bem%20vindo%20ao%20mundo%20da%20Cripto%20Moeda';
 
   return (
       <Container >
           <Menu>
             <img src={ImageBitcoin} alt="avatar"/>
             
-            <h1>Compre Bitcoin</h1>
+            <h1>Compre <strong>Bitcoin</strong></h1>
             <h3>
                 Comece a comprar <strong>Bitcoin</strong>< br /> 
                 com um aporte inicial de

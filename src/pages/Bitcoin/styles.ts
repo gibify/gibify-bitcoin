@@ -26,6 +26,11 @@ export const Menu = styled.div`
         color: var(--black-title);
         font-weight: 600;
         margin-top: 5rem;
+
+        strong {
+            color: var(--orange);
+            font-weight: 600;
+        }
     }
 
     h3 {

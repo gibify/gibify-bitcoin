@@ -5,7 +5,7 @@ import Bitcoin from '../pages/Bitcoin';
 
 const Routes: React.FC = () => (
     <Switch>
-        <Route path="/" exact component={Bitcoin} />
+        <Route path="/bitcoin" exact component={Bitcoin} />
     </Switch>
 );
 
