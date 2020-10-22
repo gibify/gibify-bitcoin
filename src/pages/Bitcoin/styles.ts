@@ -23,9 +23,8 @@ export const Menu = styled.div`
     }
 
     h1 {
-        color: var(--black-title);
-        font-weight: 600;
-        margin-top: 5rem;
+        color: var(-orange);
+        margin-top: 3.6rem;
 
         strong {
             color: var(--orange);
@@ -34,9 +33,10 @@ export const Menu = styled.div`
     }
 
     h3 {
+        text-align: center;
         color: var(--black-title);
         font-weight: 600;
-        margin-top: 2rem;
+        margin-top: 2.6rem;
 
         strong {
             color: var(--orange);
@@ -95,12 +95,12 @@ export const Footer = styled.div`
         justify-content: space-between;
         
         a {
-        margin-left: 1rem;
-
+            margin-left: 1rem;
+        
         img {
-            width: 50px;
+            width: 35px;
         }
-    }
+    
     }
     
 `;
