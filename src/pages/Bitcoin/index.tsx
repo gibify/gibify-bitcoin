@@ -15,7 +15,7 @@ const Bitcoin: React.FC = () => {
     const linkFacebookProfile = 'https://www.facebook.com/evandrogibicoski2012/';
     const linkInstagramProfile = 'https://www.instagram.com/evandrogibicoski/';
     const linkWebCompany = 'https://meupedebitcoin.com/';
-    const apiWhatsApp = 'https://api.whatsapp.com/send?phone=5548988208519&text=Obrigado%20por%20entrar%20em%20contato%2C%20seja%20bem%20vindo%20ao%20mundo%20da%20Cripto%20Moeda';
+    const apiWhatsApp = 'https://api.whatsapp.com/send?phone=5548998463847&text=Obrigado%20por%20entrar%20em%20contato%2C%20seja%20bem%20vindo%20ao%20mundo%20da%20Cripto%20Moeda';
     
 
   return (
