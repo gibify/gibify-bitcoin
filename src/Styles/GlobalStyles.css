@@ -1,16 +1,12 @@
-import { createGlobalStyle } from 'styled-components';
-
-export default createGlobalStyle`
-    * {
+  * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
         outline: 0;
     }
-
     body {
-        background: #FFFFFF;
-        color: var(----black-title);
+        background: url('../assets/background-image.svg');
+        color: var(--black-title);
         -webkit-font-smoothing: antialiased;
     }
 
@@ -36,6 +32,6 @@ export default createGlobalStyle`
         --white: #FFFFFF;
         --black: #000000;
         --Gray: #777777;
+        --Black-Medium: #121212;
         
     }
-`;

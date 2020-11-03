@@ -4,6 +4,7 @@ export const Container = styled.div`
     width: 100vw;
     height: 100vh;
     padding: 2rem;
+    
 
     display: flex;
     flex-direction: column;
@@ -23,7 +24,7 @@ export const Menu = styled.div`
     }
 
     h1 {
-        color: var(-orange);
+        color: var(--white);
         margin-top: 3.6rem;
 
         strong {
@@ -34,7 +35,7 @@ export const Menu = styled.div`
 
     h3 {
         text-align: center;
-        color: var(--black-title);
+        color: var(--white);
         font-weight: 600;
         margin-top: 2.6rem;
 
@@ -85,7 +86,7 @@ export const Footer = styled.div`
     
     p {
         margin-bottom: 1rem;
-        color: var(--black-title);
+        color: var(--white);
     }
 
     .links-social-medias {
@@ -93,6 +94,7 @@ export const Footer = styled.div`
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
+        
         
         a {
             margin-left: 1rem;
