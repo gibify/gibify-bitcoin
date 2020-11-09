@@ -33,7 +33,7 @@ const Bitcoin: React.FC = () => {
           </Menu>
 
           <Button >
-              <a href={apiWhatsApp} target="_blank"  rel="noopener noreferrer">Contate-me agora</a>
+              <a href={apiWhatsApp} target="_blank"  rel="noopener noreferrer">Saiba mais</a>
               <a href={linkWebCompany} target="_blank"  rel="noopener noreferrer">Sobre a Empresa</a>
           </Button>
 
