@@ -5,7 +5,7 @@
         outline: 0;
     }
     body {
-        background: url('../assets/background.svg');
+        background: var(--Black-Medium);
         color: var(--black-title);
         -webkit-font-smoothing: antialiased;
     }
