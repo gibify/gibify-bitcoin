@@ -2,16 +2,11 @@ import React from 'react';
 
 import './Styles/GlobalStyles.css';
 
-import './App.css';
-
-import ImageLogo from './assets/gibify-logo.svg';
+import Profile from './pages/Profile';
 
 const App: React.FC = () => {
    return (
-      <h1>
-            <img src={ImageLogo} alt="logo"/> 
-      </h1>
-      
+      <Profile/>
    )
    
 }
